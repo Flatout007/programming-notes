@@ -1,7 +1,7 @@
 
 ## ```Bubble Sort```
 
-:heavy_check_mark ```Bubble Sort``` is a very basic ```sorting``` ```algorithm```, and follows these ```steps```:
+:heavy_check_mark: ```Bubble Sort``` is a very basic ```sorting``` ```algorithm```, and follows these ```steps```:
 
 1. Point to two consecutive items in the ```array```. (Initially, we start at the very
 beginning of the array and point to its first two items.) Compare the first
