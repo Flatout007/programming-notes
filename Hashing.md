@@ -38,6 +38,7 @@ The ```computer``` now takes the following ```steps``` for ```lookup```:
 - 3. It ```searches``` through the ```array``` linearly, looking at ```index``` 0 of each ```subarray``` until it finds the word we’re ```looking up``` (“dab”). It then ```returns``` the ```value``` at ```index``` 1 of the correct ```subarray```
 
 _**N.B**_
+
 :heavy_check_mark: A good ```hash table``` strikes a balance of avoiding ```collisions``` while not consuming lots of ```memory```.
 
 :heavy_check_mark: To accomplish this, ```computer scientists``` have ```developed``` the following rule of thumb: for every seven ```data elements``` stored in a ```hash table```, it should have ten ```cells```. 
