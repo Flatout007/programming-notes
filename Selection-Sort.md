@@ -15,3 +15,32 @@ that ```index``` with the value we began the passthrough with.
 This would be ```index``` 0 in the first passthrough, ```index``` 1 in the second passthrough, and so on and so forth.
 ---
 - 3. Repeat ```steps``` 1 and 2 until all the ```data``` is ```sorted```
+
+_**N.B**_
+
+Below is an implementation of ```selection sort``` in ```javascript```
+
+```js
+function selectionSort(array) {
+
+ for(var i = 0; i < array.length; i++) {
+
+    var lowestNumberIndex = i;
+
+    for(var j = i + 1; j < array.length; j++) {
+
+        if(array[j] < array[lowestNumberIndex]) {
+            lowestNumberIndex = j;
+        }
+    }
+
+    if(lowestNumberIndex != i) {
+        var temp = array[i];
+        array[i] = array[lowestNumberIndex];
+        array[lowestNumberIndex] = temp;
+    }
+ }
+
+ return array;
+}
+```

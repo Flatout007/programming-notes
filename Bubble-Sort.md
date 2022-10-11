@@ -16,6 +16,34 @@ step.)
 ---
 - 4. Repeat ```steps``` 1 through 3 until we have a round in which we didn’t have to make any ```swaps```. This means that the ```array``` is in order
 ---
+
+_**N.B**_
+below is an implementation of ```bubble sort``` in ```python```
+```py
+def bubble_sort(list):
+
+ unsorted_until_index = len(list) - 1
+ sorted = False
+
+ while not sorted:
+
+    sorted = True
+
+    for i in range(unsorted_until_index):
+
+        if list[i] > list[i+1]:
+            sorted = False
+            # swap
+            list[i], list[i+1] = list[i+1], list[i]
+
+    unsorted_until_index = unsorted_until_index - 1
+
+# driver    
+list = [65, 55, 45, 35, 25, 15, 10]
+bubble_sort(list)
+print list
+```
+
 **NOTE**
 - If you made at least one swap during a passthrough, you'll need to conduct another ```search```.
 

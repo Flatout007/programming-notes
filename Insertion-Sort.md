@@ -14,3 +14,23 @@ soon as we encounter a ```value``` that is lower than the temporarily removed ``
 - 3. We then ```insert``` the temporarily removed ```value``` into the current gap:
 ---
 - 4. We repeat ```steps``` 1 through 3 until the ```array``` is fully sorted
+
+---
+
+**N.B** below is ```insertion sort``` in ```python```
+
+```py
+def insertion_sort(array):
+
+ for index in range(1, len(array)):
+
+    position = index
+    temp_value = array[index]
+
+    while position > 0 and array[position - 1] > temp_value:
+
+        array[position] = array[position - 1]
+        position = position - 1
+
+ array[position] = temp_value
+```
