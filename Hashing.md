@@ -24,7 +24,7 @@ corresponding ```numbers.``` This would convert the word BAD into the ```number`
 The ```computer``` takes the following ```steps``` for ```lookup```:
 - 1: First, ```BAD``` converts to ```214```.
 - 2: We then take the product of these digits ```8``` to ```lookup``` a certain ```value```
-## ```Avoiding Collisions```
+## ```Handling Collisions```
 _**N.B**_ with this ```hash function```, ```DAB``` will also convert into ```8``` just as ```BAD```
 will. Trying to ```add``` ```data``` to a ```cell``` that is already filled is known as a ```collision```
 
