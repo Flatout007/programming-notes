@@ -7,7 +7,7 @@ B = 2
 C = 3
 D = 4
 E = 5
-...
+// and so on ...
 ```
 :heavy_check_mark: According to the above ```code```,
 DAB converts to 412,and BAD converts to 214.
