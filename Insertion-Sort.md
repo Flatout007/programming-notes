@@ -17,7 +17,8 @@ soon as we encounter a ```value``` that is lower than the temporarily removed ``
 
 ---
 
-**N.B** below is ```insertion sort``` in ```python```
+_**N.B**_ 
+below is ```insertion sort``` in ```python```
 
 ```py
 def insertion_sort(array):
