@@ -20,8 +20,19 @@ is called a ```hash function```.
 :heavy_check_mark: Another example of a ```hash function```
 is to ```return``` the product of all the ```letters```’ 
 corresponding ```numbers.``` This would convert the word BAD into the ```number``` ```8```
-- Step #1: First, ```BAD``` converts to ```214```.
-- Step #2: We then take the product of these digits:
+
+The ```computer``` takes the following ```steps``` for ```lookup```:
+- 1: First, ```BAD``` converts to ```214```.
+- 2: We then take the product of these digits:
 
 _**N.B**_ that with this ```hash function```, ```DAB``` will also convert into ```8``` just as ```BAD```
-will
+will. Trying to ```add``` ```data``` to a ```cell``` that is already filled is known as a ```collision```
+
+:heavy_check_mark: One classic approach for handling ```collisions``` is known as ```separate chaining```.
+
+:heavy_check_mark: When a ```collision``` occurs, instead of placing a single ```value``` in the ```cell```, it places in it a ```reference``` to an ```array```.
+
+The ```computer``` now takes the following ```steps``` for ```lookup```:
+- 1. It ```hashes``` the ```key```. ```DAB = 4 * 1 * 2 = 8```.
+- 2. It looks up ```cell``` 8. The ```computer``` takes note that ```cell``` 8 contains an ```array``` of ```arrays``` rather than a single ```value```.
+- 3. It ```searches``` through the ```array``` linearly, looking at ```index``` 0 of each ```subarray``` until it finds the word we’re ```looking up``` (“dab”). It then ```returns``` the ```value``` at ```index``` 1 of the correct ```subarray```
