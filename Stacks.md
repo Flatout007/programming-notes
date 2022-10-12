@@ -42,10 +42,9 @@ following these rules:
 1. If we find any ```character``` that isn’t a ```type``` of ```brace``` (parenthesis, square
 bracket, or curly brace), we ignore it and move on.
 ---
-2. If we find an ```opening brace```, we ```push``` it onto the ```stack```. Having it on the
-```stack``` means we’re waiting to ```close``` that particular ```brace```.
+2. If we find an ```opening brace```, we ```push``` it onto the ```stack```. Having it on the ```stack``` means we’re waiting to ```close``` that particular ```brace```.
 ---
-3. If we find a ```closing brace```, we inspect the ```top element``` in the ```stack```. We
+3. If we find a ```closing brace```, we inspect the ```top element``` in the```stack```. We
 then analyze:
 
     - If ```Error Type #2```, If ```Error Type #3```, or ```Error Type #1```
