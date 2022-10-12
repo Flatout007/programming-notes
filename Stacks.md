@@ -52,7 +52,7 @@ then analyze:
      then the line of ```code``` is ```invalid``` so ```return``` any ```errors```
     - If the ```closing character``` is a corresponding match for the ```element``` at the ```top``` of the ```stack```, that means we’ve successfully closed that ```opening brace```. 
 
-    - We pop the top element from the stack, since we no
+    - We ```pop``` the ```top``` ```element``` from the ```stack```, since we no
     longer need to keep track of it.
 ---
 4. If we make it to the end of the line and there’s still something left on the ```stack```, that means there’s an ```opening brace``` without a corresponding ```closing brace```, which is ```Error Type #1```
