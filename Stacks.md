@@ -1,10 +1,10 @@
 ## ```Stacks```
-:heavy_check_mark: A stack stores data in the same way that arrays do—it’s simply a list of
-elements. The one catch is that stacks have the following three constraints:
+:heavy_check_mark: A ```stack``` ```stores``` ```data``` in the same way that ```arrays``` do—it’s simply a ```list``` of
+```elements```. The one catch is that ```stacks``` have the following three constraints:
 
-- Data can only be inserted at the end of a stack.
-- Data can only be read from the end of a stack.
-- Data can only be removed from the end of a stack 
+- Data can only be ```inserted``` at the ```end``` of a ```stack```.
+- Data can only be ```read``` from the ```end``` of a ```stack```.
+- Data can only be ```removed``` from the ```end``` of a ```stack``` 
 
 ## ```Stack algorithm```
 :heavy_check_mark: ```Stacks``` are a great tool to handle ```temporary data``` as part of various ```algorithms```.
