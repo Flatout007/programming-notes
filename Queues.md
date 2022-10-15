@@ -1,10 +1,11 @@
 ## Queues
 
 
-:heavy_check_mark: Like ```stacks```, ```queues``` are ```arrays``` with three restrictions (it’s just a different set of restrictions):
-    - ```Data``` can only be ```inserted``` at the ```end``` of a ```queue```. (This is identical behavior as the ```stack```.)
-    - ```Data``` can only be ```read``` from the ```front``` of a ```queue```. (This is the opposite of behavior of the ```stack```.)
-    - ```Data``` can only be ```removed``` from the ```front``` of a ```queue```. (This, too, is the opposite behavior of the ```stack```.)
+:heavy_check_mark: Like ```stacks```, ```queues``` are ```arrays``` with three restrictions (it’s just a different set of restrictions)
+
+- ```Data``` can only be ```inserted``` at the ```end``` of a ```queue```. (This is identical behavior as the ```stack```.)
+- ```Data``` can only be ```read``` from the ```front``` of a ```queue```. (This is the opposite of behavior of the ```stack```.)
+- ```Data``` can only be ```removed``` from the ```front``` of a ```queue```. (This, too, is the opposite behavior of the ```stack```.)
 
 
 ## Queue Algorithm
