@@ -62,7 +62,7 @@ does is ```peek``` at the ```top element``` of the ```call stack```, which curre
 - The ```computer``` looks at the ```call stack``` to see which ```method``` it needs to complete next, and since the ```call stack``` is currently ```factorial(3)``` it ```pops``` ```factorial(3)``` from the ```stack``` and completes the ```method```.
 ---
 
-## Recursive Algorithm
+## ```Recursive Algorithm```
 :heavy_check_mark: Below is a simple ```Ruby script``` that ```prints``` out the names of all ```subdirectories``` within a given ```directory``` using ```recursion```.
 
 ```ruby

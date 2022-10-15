@@ -7,7 +7,7 @@
 - ```Data``` can only be ```removed``` from the ```front``` of a ```queue```. (This, too, is the opposite behavior of the ```stack```.)
 
 
-## Queue Algorithm
+## ```Queue Algorithm```
 :heavy_check_mark: Lets say your are ```programming``` a simple ```Ruby interface``` that can accept printing jobs from various ```computers``` across a ```network```.
 
 _**N.B**_ below is a simple ```program``` to manage ```printing``` jobs by using ```queue methods``` ```push``` and ```shift```
