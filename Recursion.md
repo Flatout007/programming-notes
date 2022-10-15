@@ -37,7 +37,7 @@ end
 
 :heavy_check_mark: So, calling factorial(2) will return ```2 * factorial(1)```. Since we know what ```factorial(1)``` ```returns```. We know that it ```returns 1```. So ```2 * factorial(1)``` will return ```2 * 1```, which is ```2```
 
-:heavy_check_mark: So ```factorial(3)``` will return ```(3 * factorial(2))``` which is ```6``` due to ```factorial(2)``` being ```2```; hence ```3 * 2``` is ```6```
+:heavy_check_mark: So ```factorial(3)``` will return ```(3 * factorial(2))``` which is ```6```
 
 ## ```Recursion in the Eyes of the Computer```
 
