@@ -52,12 +52,12 @@ stack```
 - The ```computer``` then proceeds to ```execute``` ```factorial(2)```. Now, ```factorial(2)```, in turn, ```calls``` ```factorial(1)```. Before the ```computer``` dives into ```factorial(1)```, though, the ```computer``` needs to remember that it’s still in the middle of ```factorial(2)```, so it ```pushes``` that onto the ```call stack``` as well:
 ---
 - The ```computer``` then ```executes``` ```factorial(1)```. Since ```1``` is the ```base case```, ```factorial(1)```
-completes without the factorial ```method``` again
+completes without the factorial ```method``` being called again
 ---
  - The next thing the ```computer```
 does is ```peek``` at the ```top element``` of the ```call stack```, which currently is ```factorial(2)```
 ---
- - Since ```factorial(2)``` is the ```last``` item in the ```call stack```, that means that ```factorial(2)``` is the ```most recently called``` ```method``` and therefore the immediate ```method call``` that needs to be ```method call```.
+ - Since ```factorial(2)``` is the ```last``` item in the ```call stack```, that means that ```factorial(2)``` is the ```most recently called``` ```method``` and therefore the immediate ```method call``` that needs to be completed.
 ---
 - The ```computer``` looks at the ```call stack``` to see which ```method``` it needs to complete next, and since the ```call stack``` is currently ```factorial(3)``` it ```pops``` ```factorial(3)``` from the ```stack``` and completes the ```method```.
 ---
