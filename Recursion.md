@@ -57,7 +57,7 @@ completes without the factorial ```method``` being called again
  - The next thing the ```computer```
 does is ```peek``` at the ```top element``` of the ```call stack```, which currently is ```factorial(2)```
 ---
- - Since ```factorial(2)``` is the ```last``` item in the ```call stack```, that means that ```factorial(2)``` is the ```most recently called``` ```method``` and therefore the immediate ```method call``` that needs to be completed.
+ - Since ```factorial(2)``` is the ```last``` item in the ```call stack```, that means that ```factorial(2)``` is the ```most recently called``` ```method``` and therefore the immediate ```method call``` that is to be completed.
 ---
 - The ```computer``` looks at the ```call stack``` to see which ```method``` it needs to complete next, and since the ```call stack``` is currently ```factorial(3)``` it ```pops``` ```factorial(3)``` from the ```stack``` and completes the ```method```.
 ---
