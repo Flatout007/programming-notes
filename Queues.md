@@ -1,5 +1,4 @@
-## Queues
-
+## ```Queues```
 
 :heavy_check_mark: Like ```stacks```, ```queues``` are ```arrays``` with three restrictions (it’s just a different set of restrictions)
 
