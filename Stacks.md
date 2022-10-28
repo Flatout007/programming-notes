@@ -1,4 +1,4 @@
-## ```Stacks```
+# Stacks
 :heavy_check_mark: A ```stack``` ```stores``` ```data``` in the same way that ```arrays``` do—it’s simply a ```list``` of
 ```elements```. The one catch is that ```stacks``` have the following three constraints:
 

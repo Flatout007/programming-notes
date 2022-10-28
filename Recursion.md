@@ -1,4 +1,4 @@
-## ```Recursion```
+# Recursion
 
 :heavy_check_mark:  ```Recursion``` is the official name for when a ```function``` ```calls``` itself. 
 

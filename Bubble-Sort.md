@@ -1,5 +1,5 @@
 
-## ```Bubble Sort```
+# Bubble Sort
 
 :heavy_check_mark: ```Bubble Sort``` is a very basic ```sorting``` ```algorithm```, and follows these ```steps```:
 

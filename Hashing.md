@@ -1,4 +1,4 @@
-# ```Hashing```
+# Hashing
 
 ```c
 A = 1

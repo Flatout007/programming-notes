@@ -1,5 +1,5 @@
 
-# ```Selection Sort```
+# Selection Sort
 
 :heavy_check_mark: ```Selection Sort``` is a basic to intermediate ```sorting``` ```algorithm```, and follows these ```steps```:
 

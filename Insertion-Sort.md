@@ -1,5 +1,5 @@
 
-# ```Insertion Sort```
+# Insertion Sort
 
 :heavy_check_mark: ```Insertion Sort``` is an intermediate sorting ```algorithm``` and consists of the following ```steps```:
 

@@ -1,4 +1,4 @@
-# ```Partitioning```
+# Partitioning
 
 :heavy_check_mark: To ```partition``` an ```array``` is to take a ```random value``` from the ```array```—which is then
 called the ```pivot```—and make sure that every ```number``` that is ```less``` than the ```pivot```
