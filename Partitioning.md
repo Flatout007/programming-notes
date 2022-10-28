@@ -1,4 +1,4 @@
-## Partitioning
+# ```Partitioning```
 
 :heavy_check_mark: To ```partition``` an ```array``` is to take a ```random value``` from the ```array```—which is then
 called the ```pivot```—and make sure that every ```number``` that is ```less``` than the ```pivot```
@@ -58,7 +58,7 @@ def partition!(left_pointer, right_pointer)
 
     # As a final step, we swap the left pointer with the pivot itself
     swap(left_pointer, pivot_position)
-    
+
     # We return the left_pointer for the sake of the quicksort method
     # which is commonly used with this algorithm
     return left_pointer
