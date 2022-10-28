@@ -60,7 +60,7 @@ def partition!(left_pointer, right_pointer)
     swap(left_pointer, pivot_position)
 
     # We return the left_pointer for the sake of the quicksort method
-    # which is commonly used with this algorithm
+    # which relies on this algorithm
     return left_pointer
 end
 ```
