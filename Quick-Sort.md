@@ -12,7 +12,7 @@ and ```recursively``` ```repeat``` steps ```#1``` and ```#2```. That means that 
 
 ---
 
-3. When we have a ```1``` ```subarray``` that has ```zero``` or ```one``` ```elements```, that is our ```base case``` and we ```do nothing```.
+3. When we have a ```subarray``` that has ```zero``` or ```one``` ```elements```, that is our ```base case``` and we ```do nothing```.
 
 **NOTE** Below is ```Ruby script``` that ```implements``` the ```Quicksort algorithm```
 
