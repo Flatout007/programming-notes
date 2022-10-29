@@ -36,7 +36,6 @@ end
 
 # driver
 array = [0, 5, 2, 1, 6, 3]
-sortable_array = SortableArray.new(array)
-sortable_array.quicksort!(0, array.length - 1)
-p sortable_array.array
+quicksort!(0, array.length - 1)
+p array
 ```
