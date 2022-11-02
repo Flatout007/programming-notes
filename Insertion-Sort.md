@@ -49,8 +49,7 @@ function selectionSort(arr) {
         let position = i;
         const temp = arr[i]
     	
-    	while (position > 0) 
-    	{
+    	while (position > 0) {
             // do nothing if left value is less than temp value
     		if (arr[position-1] < temp) 
     		break
@@ -58,7 +57,7 @@ function selectionSort(arr) {
             // shift value to right
             arr[position] = arr[position-1]
     		
-    		position--;
+    	    position--;
     	}
     
     	arr[position] = temp
