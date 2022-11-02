@@ -35,3 +35,33 @@ def insertion_sort(array):
 
  array[position] = temp_value
 ```
+
+---
+
+_**N.B**_ 
+below is ```insertion sort``` in ```javascript```
+
+```ts
+function selectionSort(arr) {
+
+    for (let i = 1; i<arr.length; i++) {
+    	
+        let position = i;
+        const temp = arr[i]
+    	
+    	while (position > 0) 
+    	{
+            // do nothing if left value is less than temp value
+    		if (arr[position-1] < temp) 
+    		break
+
+            // shift value to right
+            arr[position] = arr[position-1]
+    		
+    		position--;
+    	}
+    
+    	arr[position] = temp
+    }
+}
+```
