@@ -50,6 +50,7 @@ function selectionSort(arr) {
         const temp = arr[i]
     	
     	while (position > 0) {
+            
             // do nothing if left value is less than temp value
     		if (arr[position-1] < temp) 
     		break
