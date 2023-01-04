@@ -20,7 +20,7 @@ function printCombos(arr) {
 
   /**@algorithm
    * for each arr[i]
-   * copy all previous cells into the next matrix[i],
+   * copy all previous cells into the next cells (matrix[i]),
    * push the current arr[i] into each new cell (matrix[i]).
    */
 
@@ -33,9 +33,7 @@ function printCombos(arr) {
   for (let i = 0; i<arr.length; i++) {
 
       let j = 0;
-      
       let prevLen = mat.length;
-
       let start = prevLen;
 
       while (j < prevLen) {
